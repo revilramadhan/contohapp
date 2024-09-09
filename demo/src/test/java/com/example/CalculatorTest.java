@@ -48,4 +48,12 @@ public class CalculatorTest {
         final int target = 2;
         assertEquals(target, calculator.divide(a, b));
     }
+
+    @Test
+    public void testModulus() {
+        final int a = 10;
+        final int b = 3;
+        final int target = 1;
+        assertEquals(target, calculator.mod(a, b));
+    }
 }
