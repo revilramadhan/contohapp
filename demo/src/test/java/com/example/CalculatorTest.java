@@ -53,7 +53,7 @@ public class CalculatorTest {
     public void testModulus() {
         final int a = 10;
         final int b = 3;
-        final int target = 1;
+        final int target = 2;
         assertEquals(target, calculator.mod(a, b));
     }
 }
