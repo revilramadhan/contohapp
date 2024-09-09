@@ -55,12 +55,14 @@ public class Calculator {
      * @param b nilai kedua
      * @return hasil
      */
+    /*
     public int mod(int a, int b) {
         if (b == 0) {
             throw new ArithmeticException("Cannot divide by zero");
         }
         return a % b;
     }
+    */
 
     // Main method untuk menjalankan aplikasi kalkulator
     public static void main(String[] args) {

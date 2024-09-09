@@ -49,11 +49,11 @@ public class CalculatorTest {
         assertEquals(target, calculator.divide(a, b));
     }
 
-    @Test
+    /*@Test
     public void testModulus() {
         final int a = 10;
         final int b = 3;
         final int target = 1;
         assertEquals(target, calculator.mod(a, b));
-    }
+    } */
 }
